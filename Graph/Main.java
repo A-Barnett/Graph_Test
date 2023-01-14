@@ -9,8 +9,7 @@ public class Main extends JPanel{
     //initialize coordinates
     public static List<Point> co_ords(){
         char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        System.out.println("Enter String: ");
-        
+        // Code for manual input of pattern string:
         //Scanner scanner = new Scanner(System.in);
         //char[] input = scanner.nextLine().toCharArray();
         List<Point> graphPoints = new ArrayList<Point>();
